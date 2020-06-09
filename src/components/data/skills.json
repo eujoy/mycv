@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Programming Languages",
+        "content": [
+            "Go (fluent), PHP (fluent), Bash (fluent), Python (basic)",
+            "Ruby (basic), Java (basic), JavaScript (basic), TCL (fluent)"
+        ]
+    },
+    {
+        "title": "Database Systems",
+        "content": [
+            "MySQL, Informix SQL, MariaDB, Elastic Stack, Redis, MongoDB"
+        ]
+    },
+    {
+        "title": "Queueing Systems",
+        "content": [
+            "Kafka, Rabbit MQ"
+        ]
+    },
+    {
+        "title": "Frameworks and Libraris",
+        "content": [
+            "Patron (Go), CodeIgniter (PHP), Laravel (PHP), Lumen (PHP), Slim (PHP)",
+            "React (Javascript), Material-UI (Javascript) Spring (Java), DHTMLX (Javascript)"
+        ]
+    },
+    {
+        "title": "Operating Systems",
+        "content": [
+            "MacOS, Linux, Unix, Windows"
+        ]
+    },
+    {
+        "title": "Software Tools",
+        "content": [
+            "Intellij, PHPStorm, GoLand, VS Code, Coda, Sublime, Vi, Atom"
+        ]
+    },
+    {
+        "title": "Other",
+        "content": [
+            "Use of Git, CVS, SVN, Jenkins, Maven, Travis, AWS.",
+            "Continuous Integration and Development under Contribution Model.",
+            "Software development using Agile methodologies and Scrum.",
+            "Perfect understanding of object oriented programming (OOP).",
+            "Experience in using methods to guarantee and improve code quality (design patterns, unit testing, code review, behavior driver development, test driven development).",
+            "Good understanding of SOLID principles and clean code architecture.",
+            "Experience in working in production environment."
+        ]
+    }
+]
