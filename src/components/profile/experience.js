@@ -74,7 +74,11 @@ const styles = theme => ({
     listItemContent: {
         textAlign: "left",
         fontSize: theme.typography.pxToRem(14),
-    }
+    },
+    listItemElement: {
+        marginTop: "0px",
+        marginBottom: "0px",
+    },
 });
 
 class Experience extends React.Component {
@@ -131,8 +135,9 @@ class Experience extends React.Component {
                                                     var primary = <Typography className={classes.listItemContent}>{bull} {content.primary}</Typography>
 
                                                     return (
-                                                        <ListItem>
+                                                        <ListItem className={classes.listItemElement}>
                                                             <ListItemText
+                                                                className={classes.listItemElement}
                                                                 primary={primary}
                                                                 secondary={content.secondary !== "" ? content.secondary : null}
                                                             />
