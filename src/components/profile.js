@@ -92,7 +92,7 @@ class Profile extends React.Component {
                 <Grid item xs={9}>
                     <Paper className={classes.root} elevation={7}>
                         <Grid container justify="center" alignItems="flex-start" spacing={0}>
-                            <Grid item xs={4}>
+                            <Grid item xs={12} sm={4}>
                                 <Grid container justify="center" alignItems="center" spacing={0}>
                                     <Grid item xs={12}>
                                         <br /><br />
@@ -176,7 +176,7 @@ class Profile extends React.Component {
                                 </Grid>
                             </Grid>
 
-                            <Grid item xs={8}>
+                            <Grid item xs={12} sm={8}>
                                 <Grid container justify="center" alignItems="center" spacing={0}>
                                     <Grid item xs={12}>
                                         <br />

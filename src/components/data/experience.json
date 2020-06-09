@@ -34,6 +34,29 @@
                 "primary": "Participate in new country and city launches.",
                 "secondary": ""
             }
+        ],
+        "toolsUsed": [
+            "Golang",
+            "PHP",
+            "MySQL",
+            "Aurora",
+            "Redis",
+            "Kafka",
+            "Elastic",
+            "Kibana",
+            "MongoDB",
+            "Github",
+            "Jenkins",
+            "Unit Testing",
+            "Rest",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "CI/CD",
+            "Bash",
+            "Python",
+            "RabbitMQ",
+            "Agile"
         ]
     },
     {
@@ -67,6 +90,19 @@
                 "primary": "Lead developer on splitting a large rpm deliverable into smaller consistent application based rpms (external dependencies, configurations etc).",
                 "secondary": ""
             }
+        ],
+        "toolsUsed": [
+            "TCL",
+            "Bash",
+            "InformixSQL",
+            "Docker",
+            "CI/CD",
+            "Python",
+            "Monitoring",
+            "SRE",
+            "Mentoring",
+            "Rest",
+            "Agile"
         ]
     },
     {
@@ -100,6 +136,16 @@
                 "primary": "Tech authority for recurring offers project (analysis, development, code review, deployment preparation, support, dev lead for project).",
                 "secondary": ""
             }
+        ],
+        "toolsUsed": [
+            "TCL",
+            "Bash",
+            "InformixSQL",
+            "Docker",
+            "CI/CD",
+            "Python",
+            "Rest",
+            "Agile"
         ]
     },
     {
@@ -129,6 +175,16 @@
                 "primary": "Integration with PaySafe payment method.",
                 "secondary": ""
             }
+        ],
+        "toolsUsed": [
+            "TCL",
+            "Bash",
+            "InformixSQL",
+            "Docker",
+            "CI/CD",
+            "Python",
+            "Rest",
+            "Agile"
         ]
     },
     {
@@ -154,6 +210,15 @@
                 "primary": "Sample projects : Mp3 Support and Customer, MyBackOffice, symplegma.gr (e-shop), cardinalbags.gr (e-shop), Custom CRM.",
                 "secondary": ""
             }
+        ],
+        "toolsUsed": [
+            "PHP",
+            "CodeIgniter",
+            "HTML",
+            "CSS",
+            "MySQL",
+            "Rest",
+            "Eshop"
         ]
     }
 ]

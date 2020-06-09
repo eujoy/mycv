@@ -3,6 +3,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -130,21 +131,27 @@ class Experience extends React.Component {
                                             </Typography>
                                         </ExpansionPanelSummary>
                                         <ExpansionPanelDetails>
-                                            <List dense={this.state.denseLinst}>
-                                                {exp.highlights.map((content) => {
-                                                    var primary = <Typography className={classes.listItemContent}>{bull} {content.primary}</Typography>
+                                            <div>
+                                                <List dense={this.state.denseLinst}>
+                                                    {exp.highlights.map((content) => {
+                                                        var primary = <Typography className={classes.listItemContent}>{bull} {content.primary}</Typography>
 
-                                                    return (
-                                                        <ListItem className={classes.listItemElement}>
-                                                            <ListItemText
-                                                                className={classes.listItemElement}
-                                                                primary={primary}
-                                                                secondary={content.secondary !== "" ? content.secondary : null}
-                                                            />
-                                                        </ListItem>
-                                                    );
+                                                        return (
+                                                            <ListItem className={classes.listItemElement}>
+                                                                <ListItemText
+                                                                    className={classes.listItemElement}
+                                                                    primary={primary}
+                                                                    secondary={content.secondary !== "" ? content.secondary : null}
+                                                                />
+                                                            </ListItem>
+                                                        );
+                                                    })}
+                                                </List>
+                                                                                                
+                                                {exp.toolsUsed.map((tool) => {
+                                                    return (<Chip label={tool} variant="outlined" color="primary" />);
                                                 })}
-                                            </List>
+                                            </div>
                                         </ExpansionPanelDetails>
                                     </ExpansionPanel>
                                 );
