@@ -52,7 +52,7 @@ class Education extends React.Component {
 
         return(
             <Grid container justify="center" alignItems="center" spacing={0}>
-                <Grid item xs={11}>
+                <Grid item xs={12}>
                     <Card className={classes.card} variant="outlined">
                         <CardContent>
                             <Typography variant="h5" component="h5">
@@ -62,7 +62,7 @@ class Education extends React.Component {
                             <Grid container spacing={0}>
                                 <Grid item xs={8}>
                                     <Typography className={classes.cardMain}>
-                                        AUEB - Athens University of Economics and Business
+                                        AUEB - University of Economics and Business
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={4}>

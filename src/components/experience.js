@@ -23,6 +23,9 @@ const styles = theme => ({
         width: "100%",
         align: "center",
     },
+    dividerClass: {
+        margin: '2px',
+    },
     bullet: {
         display: 'inline-block',
         margin: '0 2px',
@@ -121,7 +124,7 @@ class Experience extends React.Component {
                                                                     secondary={content.secondary !== "" ? content.secondary : null}
                                                                 />
                                                             </ListItem>
-                                                            <Divider />
+                                                            <Divider className={classes.dividerClass} />
                                                         </Box>
                                                     );
                                                 })}

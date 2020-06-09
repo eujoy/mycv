@@ -15,7 +15,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 
 import Education from './profile/education';
-// import Experience from './profile/experience';
+import Experience from './profile/experience';
 import PersonalInfo from './profile/personalinfo';
 import Skills from './profile/skills';
 
@@ -155,10 +155,22 @@ class Profile extends React.Component {
                                         <Divider className={classes.dividerClass} />
                                     </Grid>
                                 </Grid>
+
+                                <Grid container justify="center" alignItems="center" spacing={0}>
+                                    <Grid item xs={12}>
+                                        <br />
+                                    </Grid>
+                                </Grid>
+                                
+                                <Grid container justify="left" alignItems="left" spacing={0}>
+                                    <Grid item xs={12}>
+                                        <Education />
+                                    </Grid>
+                                </Grid>
                             </Grid>
 
                             <Grid item xs={8}>
-                                {/* <Grid container justify="center" alignItems="center" spacing={0}>
+                                <Grid container justify="center" alignItems="center" spacing={0}>
                                     <Grid item xs={12}>
                                         <br />
                                     </Grid>
@@ -167,18 +179,6 @@ class Profile extends React.Component {
                                 <Grid container justify="center" alignItems="center" spacing={0}>
                                     <Grid item xs={12}>
                                         <Experience />
-                                    </Grid>
-                                </Grid> */}
-
-                                <Grid container justify="center" alignItems="center" spacing={0}>
-                                    <Grid item xs={12}>
-                                        <br />
-                                    </Grid>
-                                </Grid>
-                                
-                                <Grid container justify="center" alignItems="center" spacing={0}>
-                                    <Grid item xs={12}>
-                                        <Education />
                                     </Grid>
                                 </Grid>
                                 

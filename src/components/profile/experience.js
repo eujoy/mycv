@@ -1,10 +1,8 @@
 import React from 'react';
 
 import { withStyles } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -23,6 +21,9 @@ const styles = theme => ({
         flexGrow: 1,
         width: "100%",
         align: "center",
+    },
+    dividerClass: {
+        margin: '2px',
     },
     bullet: {
         display: 'inline-block',
@@ -48,7 +49,7 @@ const styles = theme => ({
     positionHeading: {
         textAlign: "left",
         fontSize: theme.typography.pxToRem(17),
-        flexBasis: '85.15%',
+        flexBasis: '80.20%',
         flexShrink: 0,
     },
     companyHeading: {
@@ -62,13 +63,17 @@ const styles = theme => ({
         color: theme.palette.warning.dark,
     },
     expansionPanelHeader: {
-        backgroundColor: 'rgba(0, 0, 0, .05)',
-        borderBottom: '1px solid rgba(0, 0, 0, .125)',
+        backgroundColor: 'rgba(0, 0, 0, .01)',
+        borderBottom: '2px solid rgba(0, 0, 0, .125)',
         marginBottom: 0,
         minHeight: 70,
         '&$expanded': {
             minHeight: 56,
         },
+    },
+    listItemContent: {
+        textAlign: "left",
+        fontSize: theme.typography.pxToRem(14),
     }
 });
 
@@ -123,18 +128,15 @@ class Experience extends React.Component {
                                         <ExpansionPanelDetails>
                                             <List dense={this.state.denseLinst}>
                                                 {exp.highlights.map((content) => {
-                                                    var primary = <Typography>{bull} {content.primary}</Typography>
+                                                    var primary = <Typography className={classes.listItemContent}>{bull} {content.primary}</Typography>
 
                                                     return (
-                                                        <Box>
-                                                            <ListItem>
-                                                                <ListItemText
-                                                                    primary={primary}
-                                                                    secondary={content.secondary !== "" ? content.secondary : null}
-                                                                />
-                                                            </ListItem>
-                                                            <Divider />
-                                                        </Box>
+                                                        <ListItem>
+                                                            <ListItemText
+                                                                primary={primary}
+                                                                secondary={content.secondary !== "" ? content.secondary : null}
+                                                            />
+                                                        </ListItem>
                                                     );
                                                 })}
                                             </List>
