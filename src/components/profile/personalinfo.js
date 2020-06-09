@@ -54,12 +54,12 @@ class PersonalInfo extends React.Component {
                                 return (
                                     <div>
                                         <Grid container spacing={0}>
-                                            <Grid item xs={3}>
+                                            <Grid item xs={12} sm={3}>
                                                 <Typography className={classes.cardMain}>
                                                     {personalInfo.title}
                                                 </Typography>
                                             </Grid>
-                                            <Grid item xs={9}>
+                                            <Grid item xs={12} sm={9}>
                                                 <Typography className={classes.cardRightMain}>
                                                     {personalInfo.content.map((cnt, idx) => {
                                                         return <div>{cnt}</div>

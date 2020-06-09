@@ -19,7 +19,7 @@
         ]
     },
     {
-        "title": "Frameworks and Libraris",
+        "title": "Frameworks and Libraries",
         "content": [
             "Patron (Go), CodeIgniter (PHP), Laravel (PHP), Lumen (PHP), Slim (PHP)",
             "React (Javascript), Material-UI (Javascript) Spring (Java), DHTMLX (Javascript)"

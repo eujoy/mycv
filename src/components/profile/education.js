@@ -52,7 +52,7 @@ class Education extends React.Component {
 
         return(
             <Grid container justify="center" alignItems="center" spacing={0}>
-                <Grid item xs={12}>
+                <Grid item xs={12} sm={12}>
                     <Card className={classes.card} variant="outlined">
                         <CardContent>
                             <Typography variant="h5" component="h5">
@@ -60,12 +60,12 @@ class Education extends React.Component {
                             </Typography>
                             
                             <Grid container spacing={0}>
-                                <Grid item xs={8}>
+                                <Grid item xs={8} sm={8}>
                                     <Typography className={classes.cardMain}>
                                         Athens University of Economics and Business (AUEB)
                                     </Typography>
                                 </Grid>
-                                <Grid item xs={4}>
+                                <Grid item xs={4} sm={4}>
                                     <Typography className={classes.cardRightMain}>
                                         Athens, Greece
                                     </Typography>
@@ -73,12 +73,12 @@ class Education extends React.Component {
                             </Grid>
 
                             <Grid container spacing={0}>
-                                <Grid item xs={8}>
+                                <Grid item xs={8} sm={8}>
                                     <Typography className={classes.cardSecondary}>
                                         B.S. in Computer Science
                                     </Typography>
                                 </Grid>
-                                <Grid item xs={4}>
+                                <Grid item xs={4} sm={4}>
                                     <Typography className={classes.cardRightSecondary}>
                                         Oct. 2008 - Sept. 2013
                                     </Typography>
@@ -86,7 +86,7 @@ class Education extends React.Component {
                             </Grid>
 
                             <Grid container spacing={0}>
-                                <Grid item xs={12}>
+                                <Grid item xs={12} sm={12}>
                                     <Typography className={classes.cardLastText}>
                                         Specialization courses on :<br/>
                                         {bull} Information Systems and Security<br/>

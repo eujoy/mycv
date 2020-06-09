@@ -89,7 +89,7 @@ class Profile extends React.Component {
 
         return (
             <Grid className={classes.root} container justify="center" alignItems="center" spacing={0}>
-                <Grid item xs={9}>
+                <Grid item xs={12} sm={9}>
                     <Paper className={classes.root} elevation={7}>
                         <Grid container justify="center" alignItems="flex-start" spacing={0}>
                             <Grid item xs={12} sm={4}>
@@ -123,7 +123,7 @@ class Profile extends React.Component {
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={5}>
+                                    <Grid item xs={7} sm={5}>
                                         &nbsp;&nbsp;&nbsp;
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
