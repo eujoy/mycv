@@ -16,6 +16,7 @@ import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 
 import Education from './profile/education';
 import Experience from './profile/experience';
+import MailIcon from '@material-ui/icons/Mail';
 import PersonalInfo from './profile/personalinfo';
 import Skills from './profile/skills';
 
@@ -122,7 +123,7 @@ class Profile extends React.Component {
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={4}>
+                                    <Grid item xs={5}>
                                         &nbsp;&nbsp;&nbsp;
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
@@ -145,6 +146,12 @@ class Profile extends React.Component {
                                         <Tooltip title="Unsplash" placement="top">
                                             <Link href="https://unsplash.com/@eujoy_ang" target="_blank" color="inherit">
                                                 <PhotoCameraIcon />
+                                            </Link>
+                                        </Tooltip>
+                                        &nbsp;&nbsp;&nbsp;
+                                        <Tooltip title="Mail to : angelos.giannis@gmail.com" placement="top">
+                                            <Link href="mailto:angelos.giannis@gmail.com" color="inherit">
+                                                <MailIcon />
                                             </Link>
                                         </Tooltip>
                                     </Grid>
