@@ -14,6 +14,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 
+import Articles from './profile/articles';
 import Education from './profile/education';
 import Experience from './profile/experience';
 import MailIcon from '@material-ui/icons/Mail';
@@ -172,6 +173,18 @@ class Profile extends React.Component {
                                 <Grid container justify="left" alignItems="left" spacing={0}>
                                     <Grid item xs={12}>
                                         <Education />
+                                    </Grid>
+                                </Grid>
+
+                                <Grid container justify="center" alignItems="center" spacing={0}>
+                                    <Grid item xs={12}>
+                                        <br />
+                                    </Grid>
+                                </Grid>
+                                
+                                <Grid container justify="left" alignItems="left" spacing={0}>
+                                    <Grid item xs={12}>
+                                        <Articles />
                                     </Grid>
                                 </Grid>
                             </Grid>
