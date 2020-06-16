@@ -124,7 +124,7 @@ class Profile extends React.Component {
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={7} sm={5}>
+                                    <Grid item xs={7} sm={6}>
                                         &nbsp;&nbsp;&nbsp;
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
