@@ -35,7 +35,7 @@ const styles = theme => ({
     },
     cardRightSecondary: {
         textAlign: "right",
-        fontSize: theme.typography.pxToRem(15),
+        fontSize: theme.typography.pxToRem(13),
         color: theme.palette.warning.dark,
     },
     cardLastText: {
@@ -60,12 +60,12 @@ class Education extends React.Component {
                             </Typography>
                             
                             <Grid container spacing={0}>
-                                <Grid item xs={8} sm={8}>
+                                <Grid item xs={7} sm={7}>
                                     <Typography className={classes.cardMain}>
                                         Athens University of Economics and Business (AUEB)
                                     </Typography>
                                 </Grid>
-                                <Grid item xs={4} sm={4}>
+                                <Grid item xs={5} sm={5}>
                                     <Typography className={classes.cardRightMain}>
                                         Athens, Greece
                                     </Typography>
@@ -73,12 +73,12 @@ class Education extends React.Component {
                             </Grid>
 
                             <Grid container spacing={0}>
-                                <Grid item xs={8} sm={8}>
+                                <Grid item xs={7} sm={7}>
                                     <Typography className={classes.cardSecondary}>
                                         B.S. in Computer Science
                                     </Typography>
                                 </Grid>
-                                <Grid item xs={4} sm={4}>
+                                <Grid item xs={5} sm={5}>
                                     <Typography className={classes.cardRightSecondary}>
                                         Oct. 2008 - Sept. 2013
                                     </Typography>

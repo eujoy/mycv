@@ -49,7 +49,7 @@ const styles = theme => ({
     },
     positionHeading: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(17),
+        fontSize: theme.typography.pxToRem(16),
         flexBasis: '80.20%',
         flexShrink: 0,
     },
@@ -60,7 +60,7 @@ const styles = theme => ({
     },
     secondaryHeading: {
         textAlign: "right",
-        fontSize: theme.typography.pxToRem(14),
+        fontSize: theme.typography.pxToRem(13),
         color: theme.palette.warning.dark,
     },
     expansionPanelHeader: {

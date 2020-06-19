@@ -18,6 +18,7 @@ import Articles from './profile/articles';
 import Education from './profile/education';
 import Experience from './profile/experience';
 import MailIcon from '@material-ui/icons/Mail';
+import MonochromePhotosIcon from '@material-ui/icons/MonochromePhotos';
 import PersonalInfo from './profile/personalinfo';
 import Skills from './profile/skills';
 
@@ -124,7 +125,7 @@ class Profile extends React.Component {
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={7} sm={6}>
+                                    <Grid item xs={6} sm={7}>
                                         &nbsp;&nbsp;&nbsp;
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
@@ -147,6 +148,12 @@ class Profile extends React.Component {
                                         <Tooltip title="Unsplash" placement="top">
                                             <Link href="https://unsplash.com/@eujoy_ang" target="_blank" color="inherit">
                                                 <PhotoCameraIcon />
+                                            </Link>
+                                        </Tooltip>
+                                        &nbsp;&nbsp;&nbsp;
+                                        <Tooltip title="500px" placement="top">
+                                            <Link href="https://500px.com/eujoy" target="_blank" color="inherit">
+                                                <MonochromePhotosIcon />
                                             </Link>
                                         </Tooltip>
                                         &nbsp;&nbsp;&nbsp;
