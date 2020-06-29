@@ -125,38 +125,37 @@ class Profile extends React.Component {
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={6} sm={7}>
-                                        &nbsp;&nbsp;&nbsp;
+                                    <Grid item xs={5} sm={5}>
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
                                                 <GitHubIcon />
                                             </Link>
                                         </Tooltip>
-                                        &nbsp;&nbsp;&nbsp;
+                                        &nbsp;
                                         <Tooltip title="LinkedIn" placement="top">
                                             <Link href="https://www.linkedin.com/in/v-angelos-giannis" target="_blank" color="inherit">
                                                 <LinkedInIcon />
                                             </Link>
                                         </Tooltip>
-                                        &nbsp;&nbsp;&nbsp;
+                                        &nbsp;
                                         <Tooltip title="Instagram" placement="top">
                                             <Link href="https://www.instagram.com/angelgiannis" target="_blank" color="inherit">
                                                 <InstagramIcon />
                                             </Link>
                                         </Tooltip>
-                                        &nbsp;&nbsp;&nbsp;
+                                        &nbsp;
                                         <Tooltip title="Unsplash" placement="top">
                                             <Link href="https://unsplash.com/@eujoy_ang" target="_blank" color="inherit">
                                                 <PhotoCameraIcon />
                                             </Link>
                                         </Tooltip>
-                                        &nbsp;&nbsp;&nbsp;
+                                        &nbsp;
                                         <Tooltip title="500px" placement="top">
                                             <Link href="https://500px.com/eujoy" target="_blank" color="inherit">
                                                 <MonochromePhotosIcon />
                                             </Link>
                                         </Tooltip>
-                                        &nbsp;&nbsp;&nbsp;
+                                        &nbsp;
                                         <Tooltip title="Mail to : angelos.giannis@gmail.com" placement="top">
                                             <Link href="mailto:angelos.giannis@gmail.com" color="inherit">
                                                 <MailIcon />

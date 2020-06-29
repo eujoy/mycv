@@ -3,7 +3,7 @@
         "startDate": "May 2018",
         "endDate": "May 2020",
         "position": "Backend Developer",
-        "company": "The Beat App - Part of Free Now Group",
+        "company": "The Beat App - Part of Daimler Mobility Group",
         "location": "Athens, Greece",
         "highlights": [
             {
@@ -56,7 +56,9 @@
             "Bash",
             "Python",
             "RabbitMQ",
-            "Agile"
+            "Agile",
+            "Swagger",
+            "Microservices"
         ]
     },
     {
@@ -102,7 +104,9 @@
             "SRE",
             "Mentoring",
             "Rest",
-            "Agile"
+            "Agile",
+            "Team Leading",
+            "Jenkins"
         ]
     },
     {
@@ -145,7 +149,8 @@
             "CI/CD",
             "Python",
             "Rest",
-            "Agile"
+            "Agile",
+            "Jenkins"
         ]
     },
     {
@@ -184,7 +189,8 @@
             "CI/CD",
             "Python",
             "Rest",
-            "Agile"
+            "Agile",
+            "Jenkins"
         ]
     },
     {
