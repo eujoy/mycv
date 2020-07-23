@@ -3,13 +3,13 @@
         "title": "Programming Languages",
         "content": [
             "Go (fluent), PHP (fluent), Bash (fluent), Python (basic)",
-            "Ruby (basic), Java (basic), JavaScript (basic), TCL (fluent)"
+            "Ruby (basic), Java (basic), Groovy (basic) JavaScript (basic), ES6 (basic) TCL (fluent)"
         ]
     },
     {
         "title": "Database Systems",
         "content": [
-            "MySQL, Informix SQL, MariaDB, Elastic Stack, Redis, MongoDB"
+            "MySQL, PostgreSQL, MariaDB, Elastic Stack, Redis, Informix SQL, MongoDB"
         ]
     },
     {
@@ -46,7 +46,8 @@
             "Perfect understanding of object oriented programming (OOP).",
             "Experience in using methods to guarantee and improve code quality (design patterns, unit testing, code review, behavior driver development, test driven development).",
             "Good understanding of SOLID principles and clean code architecture.",
-            "Experience in working in production environment."
+            "Experience in working in production environment.",
+            "Passionate with automating repetitive tasks."
         ]
     }
 ]

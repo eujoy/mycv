@@ -1,7 +1,17 @@
 [
     {
+        "title": "Auto generate builder for an object",
+        "subtitle": "Medium Article - 3rd of July 2020",
+        "link": "https://medium.com/@angelos.giannis/auto-generate-builder-for-an-object-f4b2c93b5d96"
+    },
+    {
         "title": "Table Driven Tests in Go - Logic differentiation with functions",
-        "subtitle": "",
+        "subtitle": "Medium Article - 10th of June 2020",
         "link": "https://medium.com/@angelos.giannis/table-driven-tests-in-go-logic-differentiation-with-functions-1b2fc578fc18"
+    },
+    {
+        "title": "Robert C. Martin - Clean Code Heuristics",
+        "subtitle": "Gist on Github",
+        "link": "https://gist.github.com/Angelos-Giannis"
     }
 ]

@@ -1,5 +1,35 @@
 [
     {
+        "active": false,
+        "startDate": "July 2020",
+        "endDate": "Present",
+        "position": "Software Engineer",
+        "company": "Delivery Hero SE",
+        "location": "Berlin, Germany",
+        "highlights": [
+            {
+                "primary": "Work on the supplier portal internal tool for handling the supplier relationship.",
+                "secondary": ""
+            }
+        ],
+        "toolsUsed": [
+            "Golang",
+            "Microservices",
+            "Monorepo",
+            "Docker",
+            "Kubernetes",
+            "Github",
+            "Github Workflow",
+            "Protobuf",
+            "PostgreSQL",
+            "Redis",
+            "Unit Testing",
+            "Datadog",
+            "Grafana"
+        ]
+    },
+    {
+        "active": true,
         "startDate": "May 2018",
         "endDate": "May 2020",
         "position": "Backend Developer",
@@ -31,6 +61,10 @@
                 "secondary": ""
             },
             {
+                "primary": "Contribute in test automation platform for backend services.",
+                "secondary": ""
+            },
+            {
                 "primary": "Participate in new country and city launches.",
                 "secondary": ""
             }
@@ -45,6 +79,7 @@
             "Elastic",
             "Kibana",
             "MongoDB",
+            "Git",
             "Github",
             "Jenkins",
             "Unit Testing",
@@ -58,10 +93,13 @@
             "RabbitMQ",
             "Agile",
             "Swagger",
-            "Microservices"
+            "Microservices",
+            "Prometheus",
+            "Grafana"
         ]
     },
     {
+        "active": true,
         "startDate": "Jan. 2017",
         "endDate": "Apr. 2018",
         "position": "Senior Software Engineer Level 3 @Sky Betting and Gaming Dev Team",
@@ -99,17 +137,22 @@
             "InformixSQL",
             "Docker",
             "CI/CD",
+            "Maven",
+            "Unit Testing",
             "Python",
             "Monitoring",
             "SRE",
+            "Git",
             "Mentoring",
             "Rest",
             "Agile",
             "Team Leading",
-            "Jenkins"
+            "Jenkins",
+            "Grafana"
         ]
     },
     {
+        "active": true,
         "startDate": "Feb. 2016",
         "endDate": "Dec. 2016",
         "position": "Software Engineer Level 2 @Sky Betting and Gaming Dev Team",
@@ -143,17 +186,25 @@
         ],
         "toolsUsed": [
             "TCL",
+            "Unit Testing",
+            "Javascript",
+            "HTML",
+            "jQuery",
             "Bash",
             "InformixSQL",
             "Docker",
             "CI/CD",
+            "Maven",
+            "Git",
             "Python",
             "Rest",
             "Agile",
-            "Jenkins"
+            "Jenkins",
+            "Grafana"
         ]
     },
     {
+        "active": true,
         "startDate": "May 2014",
         "endDate": "Feb. 2016",
         "position": "Software Engineer Level 2 @Rank Digital Dev Team",
@@ -183,17 +234,25 @@
         ],
         "toolsUsed": [
             "TCL",
+            "Unit Testing",
+            "Javascript",
+            "HTML",
+            "jQuery",
             "Bash",
             "InformixSQL",
             "Docker",
             "CI/CD",
+            "Maven",
+            "Git",
             "Python",
             "Rest",
             "Agile",
-            "Jenkins"
+            "Jenkins",
+            "Grafana"
         ]
     },
     {
+        "active": true,
         "startDate": "Mar. 2012",
         "endDate": "May 2014",
         "position": "Full Stack Developer",
@@ -220,11 +279,14 @@
         "toolsUsed": [
             "PHP",
             "CodeIgniter",
+            "Javascript",
             "HTML",
             "CSS",
+            "jQuery",
             "MySQL",
             "Rest",
-            "Eshop"
+            "Eshop",
+            "Git"
         ]
     }
 ]

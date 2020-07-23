@@ -93,7 +93,7 @@ class Profile extends React.Component {
             <Grid className={classes.root} container justify="center" alignItems="center" spacing={0}>
                 <Grid item xs={12} sm={9}>
                     <Paper className={classes.root} elevation={7}>
-                        <Grid container justify="center" alignItems="flex-start" spacing={0}>
+                        <Grid container justify="center" alignItems="flex-start" spacing={2}>
                             <Grid item xs={12} sm={4}>
                                 <Grid container justify="center" alignItems="center" spacing={0}>
                                     <Grid item xs={12}>
@@ -108,11 +108,21 @@ class Profile extends React.Component {
                                         </Typography>
                                         <Divider className={classes.dividerClass} />
 
+                                        <Grid container justify="center" alignItems="center" spacing={0}>
+                                            <Grid item xs={12}>
+                                                <br />
+                                            </Grid>
+                                        </Grid>
+
                                         <Typography className={classes.personalInfoData}>
-                                            Software Engineer - Lifelong Learner - Amateur Photographer
+                                            Software Engineer <br/> Lifelong Learner - Amateur Photographer
                                         </Typography>
 
-                                        <br />
+                                        <Grid container justify="center" alignItems="center" spacing={0}>
+                                            <Grid item xs={12}>
+                                                <br />
+                                            </Grid>
+                                        </Grid>
 
                                         <Typography className={classes.personalQuotesData}>
                                             "The best way to write code is to make it self explanatory so that it is easy to read and fully understand what it actually does."
@@ -120,12 +130,24 @@ class Profile extends React.Component {
                                             "Let variables and functions speak for themselves."
                                         </Typography>
 
+                                        <Grid container justify="center" alignItems="center" spacing={0}>
+                                            <Grid item xs={12}>
+                                                <br />
+                                            </Grid>
+                                        </Grid>
+
                                         <Divider className={classes.dividerClass} />
                                     </Grid>
                                 </Grid>
 
                                 <Grid container justify="center" alignItems="center" spacing={2}>
-                                    <Grid item xs={5} sm={5}>
+                                    <Grid container justify="center" alignItems="center" xs={10} sm={10}>
+                                        <Grid container justify="center" alignItems="center" spacing={0}>
+                                            <Grid item xs={12}>
+                                                <br />
+                                            </Grid>
+                                        </Grid>
+
                                         <Tooltip title="GitHub" placement="top">
                                             <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
                                                 <GitHubIcon />
@@ -161,6 +183,12 @@ class Profile extends React.Component {
                                                 <MailIcon />
                                             </Link>
                                         </Tooltip>
+
+                                        <Grid container justify="center" alignItems="center" spacing={0}>
+                                            <Grid item xs={12}>
+                                                <br />
+                                            </Grid>
+                                        </Grid>
                                     </Grid>
                                 </Grid>
 

@@ -110,6 +110,10 @@ class Experience extends React.Component {
                             Experience
                         </Typography>
                             {experienceData.map((exp, idx) => {
+                                if (exp.active === false) {
+                                    return ("");
+                                }
+
                                 var panelIdx = "panel" + idx + 1
 
                                 return (
