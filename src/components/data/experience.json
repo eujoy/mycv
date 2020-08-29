@@ -8,7 +8,15 @@
         "location": "Berlin, Germany",
         "highlights": [
             {
-                "primary": "Work on the supplier portal internal tool for handling the supplier relationship.",
+                "primary": "Work on the supplier portal internal tool for connecting suppliers to products alongside their pricing information.",
+                "secondary": ""
+            },
+            {
+                "primary": "Work on the invoice module for processing invoices as they are received from suppliers.",
+                "secondary": ""
+            },
+            {
+                "primary": "Deploy and manage services to staging and production using terraform.",
                 "secondary": ""
             }
         ],
@@ -25,7 +33,10 @@
             "Redis",
             "Unit Testing",
             "Datadog",
-            "Grafana"
+            "Grafana",
+            "Terraform",
+            "Helm",
+            "Automation"
         ]
     },
     {
@@ -45,7 +56,7 @@
                 "secondary": ""
             },
             {
-                "primary": "Lead and implement new microservices from scratch - e.g. help menu microervice for the applications.",
+                "primary": "Lead and implement new microservices from scratch - e.g. help menu micro-service for the applications.",
                 "secondary": ""
             },
             {
@@ -95,7 +106,8 @@
             "Swagger",
             "Microservices",
             "Prometheus",
-            "Grafana"
+            "Grafana",
+            "Automation"
         ]
     },
     {
@@ -148,7 +160,8 @@
             "Agile",
             "Team Leading",
             "Jenkins",
-            "Grafana"
+            "Grafana",
+            "Automation"
         ]
     },
     {

@@ -40,27 +40,27 @@ const styles = theme => ({
     },
     cardMain: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(14),
+        fontSize: theme.typography.pxToRem(13),
         fontWeight: "bold",
     },
     cardRightMain: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(14),
+        fontSize: theme.typography.pxToRem(13),
     },
     positionHeading: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(16),
+        fontSize: theme.typography.pxToRem(15),
         flexBasis: '80.20%',
         flexShrink: 0,
     },
     companyHeading: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(14),
+        fontSize: theme.typography.pxToRem(13),
         color: theme.palette.info.dark
     },
     secondaryHeading: {
         textAlign: "right",
-        fontSize: theme.typography.pxToRem(13),
+        fontSize: theme.typography.pxToRem(12),
         color: theme.palette.warning.dark,
     },
     expansionPanelHeader: {
@@ -74,7 +74,7 @@ const styles = theme => ({
     },
     listItemContent: {
         textAlign: "left",
-        fontSize: theme.typography.pxToRem(14),
+        fontSize: theme.typography.pxToRem(13),
     },
     listItemElement: {
         marginTop: "0px",
