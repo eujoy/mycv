@@ -149,7 +149,7 @@ class Profile extends React.Component {
                                         </Grid>
 
                                         <Tooltip title="GitHub" placement="top">
-                                            <Link href="https://github.com/Angelos-Giannis" target="_blank" color="inherit">
+                                            <Link href="https://github.com/eujoy" target="_blank" color="inherit">
                                                 <GitHubIcon />
                                             </Link>
                                         </Tooltip>
