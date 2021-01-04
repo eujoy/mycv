@@ -1,22 +1,38 @@
 [
     {
-        "active": false,
+        "active": true,
         "startDate": "July 2020",
         "endDate": "Present",
-        "position": "Software Engineer",
+        "position": "Senior Software Engineer",
         "company": "Delivery Hero SE",
         "location": "Berlin, Germany",
         "highlights": [
             {
-                "primary": "Work on the supplier portal internal tool for connecting suppliers to products alongside their pricing information.",
+                "primary": "Work as part of a team responsible for building internal tools for the QCommerce domain related to suppliers.",
                 "secondary": ""
             },
             {
-                "primary": "Work on the invoice module for processing invoices as they are received from suppliers.",
+                "primary": "Work on the refactoring of the legacy code to improve performance and code.",
                 "secondary": ""
             },
             {
-                "primary": "Deploy and manage services to staging and production using terraform.",
+                "primary": "Participate in architectural decisions, introduce new ideas and improve code quality.",
+                "secondary": ""
+            },
+            {
+                "primary": "Automate deployment process for all the services and setup Spinnaker deployments to increase release process.",
+                "secondary": ""
+            },
+            {
+                "primary": "Mentor and introduce new developers to the team and the company.",
+                "secondary": ""
+            },
+            {
+                "primary": "Perform code reviews, ensure code quality, ensure community standards and best practices are applied.",
+                "secondary": ""
+            },
+            {
+                "primary": "Integrate with codacy for automated code reviews and code quality.",
                 "secondary": ""
             }
         ],
@@ -36,7 +52,8 @@
             "Grafana",
             "Terraform",
             "Helm",
-            "Automation"
+            "Automation",
+            "Spinnaker"
         ]
     },
     {
