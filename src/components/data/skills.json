@@ -3,26 +3,33 @@
         "title": "Programming Languages",
         "content": [
             "Go (fluent), PHP (fluent), Bash (fluent), Python (basic)",
-            "Ruby (basic), Java (basic), Groovy (basic) JavaScript (basic), ES6 (basic) TCL (fluent)"
+            "Ruby (basic), Java (basic), Groovy (basic)",
+            "Rust (basic), JavaScript (basic), ES6 (basic), TCL (fluent)"
+        ]
+    },
+    {
+        "title": "Cloud Platforms",
+        "content": [
+            "GCP (Google Cloud Platform), AWS (Amazon Web Services)"
         ]
     },
     {
         "title": "Database Systems",
         "content": [
-            "MySQL, PostgreSQL, MariaDB, Elastic Stack, Redis, Informix SQL, MongoDB"
+            "MySQL, PostgreSQL, MariaDB, Elastic Stack, Redis, Informix SQL, MongoDB, BigQuery"
         ]
     },
     {
         "title": "Queueing Systems",
         "content": [
-            "Kafka, Rabbit MQ"
+            "PubSub, Kafka, Rabbit MQ"
         ]
     },
     {
         "title": "Frameworks and Libraries",
         "content": [
             "Patron (Go), CodeIgniter (PHP), Laravel (PHP), Lumen (PHP), Slim (PHP)",
-            "React (Javascript), Material-UI (Javascript) Spring (Java), DHTMLX (Javascript)"
+            "React (Javascript), Material-UI (Javascript), Spring (Java), DHTMLX (Javascript)"
         ]
     },
     {
@@ -34,7 +41,7 @@
     {
         "title": "Software Tools",
         "content": [
-            "Intellij, PHPStorm, GoLand, VS Code, Coda, Sublime, Vi, Atom"
+            "GoLand, Intellij, PHPStorm, DataGrid, VS Code, Coda, Sublime, Vi, Atom"
         ]
     },
     {

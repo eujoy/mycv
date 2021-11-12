@@ -12,6 +12,14 @@
                 "secondary": ""
             },
             {
+                "primary": "Automate invoice capturing process and matching against the orders.",
+                "secondary": ""
+            },
+            {
+                "primary": "Lead the architectural design of the team's services.",
+                "secondary": ""
+            },
+            {
                 "primary": "Work on the refactoring of the legacy code to improve performance and code.",
                 "secondary": ""
             },
@@ -34,6 +42,14 @@
             {
                 "primary": "Integrate with codacy for automated code reviews and code quality.",
                 "secondary": ""
+            },
+            {
+                "primary": "Perform presentations on technical topics on the domain level.",
+                "secondary": ""
+            },
+            {
+                "primary": "Automate generation of team metrics visualise them in Google Data Studio.",
+                "secondary": "Created a golang tool to fetch all the metrics from Jira and Github, perform the required calculations and publish them to make them available for use from Google Data Studio."
             }
         ],
         "toolsUsed": [
@@ -53,7 +69,9 @@
             "Terraform",
             "Helm",
             "Automation",
-            "Spinnaker"
+            "Spinnaker",
+            "PubSub",
+            "Google Cloud Platform"
         ]
     },
     {

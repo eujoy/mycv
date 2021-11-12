@@ -72,9 +72,15 @@ const styles = theme => ({
             minHeight: 56,
         },
     },
-    listItemContent: {
+    listItemContentPrimary: {
         textAlign: "left",
         fontSize: theme.typography.pxToRem(13),
+    },
+    listItemContentSecondary: {
+        textAlign: "left",
+        fontSize: theme.typography.pxToRem(11),
+        marginLeft: 30,
+        color: "#616161"
     },
     listItemElement: {
         marginTop: "0px",
@@ -118,7 +124,6 @@ class Experience extends React.Component {
 
                                 return (
                                     <ExpansionPanel>
-                                    {/* <ExpansionPanel expanded={this.state.expanded === panelIdx} onChange={this.handleChange(panelIdx)}> */}
                                         <ExpansionPanelSummary
                                             className={classes.expansionPanelHeader}
                                             expandIcon={<ExpandMoreIcon />}
@@ -138,21 +143,22 @@ class Experience extends React.Component {
                                             <div>
                                                 <List dense={this.state.denseLinst}>
                                                     {exp.highlights.map((content) => {
-                                                        var primary = <Typography className={classes.listItemContent}>{bull} {content.primary}</Typography>
+                                                        var primary = <Typography className={classes.listItemContentPrimary}>{bull} {content.primary}</Typography>
+                                                        var secondary = content.secondary !== "" ? <Typography className={classes.listItemContentSecondary}>{bull} {content.secondary}</Typography> : null
 
                                                         return (
                                                             <ListItem className={classes.listItemElement}>
                                                                 <ListItemText
                                                                     className={classes.listItemElement}
                                                                     primary={primary}
-                                                                    secondary={content.secondary !== "" ? content.secondary : null}
+                                                                    secondary={secondary}
                                                                 />
                                                             </ListItem>
                                                         );
                                                     })}
                                                 </List>
                                                                                                 
-                                                {exp.toolsUsed.map((tool) => {
+                                                {exp.toolsUsed.sort((a, b) => a > b ? 1 : -1).map((tool) => {
                                                     return (<Chip label={tool} variant="outlined" color="primary" />);
                                                 })}
                                             </div>
