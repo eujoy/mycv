@@ -50,6 +50,10 @@
             {
                 "primary": "Automate generation of team metrics visualise them in Google Data Studio.",
                 "secondary": "Created a golang tool to fetch all the metrics from Jira and Github, perform the required calculations and publish them to make them available for use from Google Data Studio."
+            },
+            {
+                "primary": "Focus a lot on performance and technical improvements.",
+                "secondary": "Worked on preparation and analysis of performance issues as well as technical improvements from coding and architecture perspective."
             }
         ],
         "toolsUsed": [

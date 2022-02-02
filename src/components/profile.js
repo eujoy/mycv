@@ -19,6 +19,7 @@ import Education from './profile/education';
 import Experience from './profile/experience';
 import MailIcon from '@material-ui/icons/Mail';
 import MonochromePhotosIcon from '@material-ui/icons/MonochromePhotos';
+import OpenSource from './profile/open_source';
 import PersonalInfo from './profile/personalinfo';
 import Skills from './profile/skills';
 
@@ -216,6 +217,12 @@ class Profile extends React.Component {
                                     </Grid>
                                 </Grid>
                                 
+                                <Grid container justify="left" alignItems="left" spacing={0}>
+                                    <Grid item xs={12}>
+                                        <OpenSource />
+                                    </Grid>
+                                </Grid>
+
                                 <Grid container justify="left" alignItems="left" spacing={0}>
                                     <Grid item xs={12}>
                                         <Articles />

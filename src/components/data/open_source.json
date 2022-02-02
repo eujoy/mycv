@@ -1,0 +1,17 @@
+[
+    {
+        "title": "gitpr",
+        "subtitle": "Github limited tool kit.",
+        "link": "https://github.com/eujoy/gitpr"
+    },
+    {
+        "title": "openrecipe",
+        "subtitle": "Public list of recipes available in both greek and english.",
+        "link": "https://eujoy.github.io/openrecipe"
+    },
+    {
+        "title": "data-dict",
+        "subtitle": "Create a data dictionary of a database by connecting to it.",
+        "link": "https://github.com/eujoy/data-dict"
+    }
+]
